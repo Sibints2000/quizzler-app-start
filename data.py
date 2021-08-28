@@ -1,6 +1,6 @@
 import requests
 
-
+parameters =
 
 response = requests.get("https://opentdb.com/api.php", params=)
 question_data = [

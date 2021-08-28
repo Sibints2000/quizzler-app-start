@@ -49,3 +49,4 @@ class QuizInterface:
     def false_pressed(self):
         is_right = self.quiz.check_answer("False")
 
+    def give_feedback(self):

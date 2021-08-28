@@ -11,7 +11,6 @@ class QuizInterface:
         self.window.title("Quizzler")
         self.window.config(padx=20, pady=20, bg=THEME_COLOR)
 
-
         self.score_label = Label(text="Score: 0", fg="white")
 
 

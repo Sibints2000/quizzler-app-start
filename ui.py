@@ -19,5 +19,4 @@ class QuizInterface:
         self.canvas.grid(row=1, column=0, columnspan=2)
 
 
-
         self.window.mainloop()

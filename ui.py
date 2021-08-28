@@ -6,7 +6,8 @@ THEME_COLOR = "#375362"
 
 class QuizInterface:
 
-    def __init__(self):
+    def __init__(self, quiz_brain):
+        self.quiz = quiz_brain
         self.window = Tk()
         self.window.title("Quizzler")
         self.window.config(padx=20, pady=20, bg=THEME_COLOR)
@@ -36,4 +37,4 @@ class QuizInterface:
         self.window.mainloop()
 
     def get_next_question(self):
-
+        self.quiz.next_question

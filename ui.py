@@ -37,7 +37,6 @@ class QuizInterface:
 
         self.get_next_question()
 
-
         self.window.mainloop()
 
     def get_next_question(self):

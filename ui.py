@@ -14,6 +14,8 @@ class QuizInterface:
         self.score_label = Label(text="Score: 0", fg="white", bg=THEME_COLOR)
         self.score_label.grid(row=0, column=1)
 
+        self.canvas = Canvas(width=300, height=250, bg="white")
+
 
 
         self.window.mainloop()

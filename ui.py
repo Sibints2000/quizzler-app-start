@@ -22,7 +22,7 @@ class QuizInterface:
             fill=THEME_COLOR,
             font=("Ariel", 20, "italic")
         )
-        self.canvas.grid(row=1, column=0, columnspan=2)
+        self.canvas.grid(row=1, column=0, columnspan=2, pady=50)
 
 
         self.window.mainloop()

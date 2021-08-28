@@ -44,6 +44,8 @@ class QuizInterface:
         self.canvas.itemconfig(self.question_text, text=q_text)
 
     def true_pressed(self):
+        self.quiz.check_answer("True")
 
     def false_pressed(self):
+        self.quiz.check_answer("False")
 

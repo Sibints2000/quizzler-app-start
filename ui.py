@@ -45,6 +45,8 @@ class QuizInterface:
             self.score_label.config(text=f"Score: {self.quiz.score}")
             q_text = self.quiz.next_question()
             self.canvas.itemconfig(self.question_text, text=q_text)
+        else:
+            self.canvas.itemconfig(self.question_text, text="You've reached the end of the quiz.")
 
     def true_pressed(self):
         self.give_feedback(self.quiz.check_answer("True"))

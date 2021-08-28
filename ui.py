@@ -15,6 +15,8 @@ class QuizInterface:
         self.score_label.grid(row=0, column=1)
 
         self.canvas = Canvas(width=300, height=250, bg="white")
+        self.question_text = self.canvas.create_text(text="Some Question Text", fill=THEME_COLOR)
+
 
 
 
